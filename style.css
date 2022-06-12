@@ -37,121 +37,17 @@ header{
 #nav-logo{
     padding-left: 1vw;
     height: 15vh;
-    width: 8vw;
+    width: 7vw;
 }
 
 #nav-ul{
     display: flex;
 }
 
-
-#box1{
-    background-color: brown;
-    position: absolute;
-    left:52vw;
-    top: -6vh;
-    width: 30vw;
-    height: 42vh;
-}
-#box2{
-    position: absolute;
-    left:20vw;
-    top: 10vh;
-}
-#box3{
-    position: absolute;
-    left:52vw;
-    top: 40vh;
-}
-#box4{
-    position: absolute;
-    left:20vw;
-    top: 52vh;
-}
-#box5{
-    position: absolute;
-    left:52vw;
-    top: 84vh;    
-}
-
-#page2-image-1{
-    height:43vh;
-    width: 30vw; 
-}
-#page2-image-2{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-3{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-4{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-5{
-    height:40vh;
-    width: 30vw; 
-}
-
-#hotel-image{
-    height: 50px;
-    width: 50px;
-    background-color: brown;
-}
-
-#range-text{
-    color: white;
-    margin-left: 20px;
-    font-family: 'Arimo', sans-serif;
-    font-weight: 300;
-    font-size: large;
-}
-
-#range1{
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 27vw;
-    height: 3px;
-    
-}
-
-
-#para-1{
-    color: rgb(201, 226, 136);
-    margin-left: 20px;
-    font-family: 'Arimo', sans-serif;
-    font-weight: 300;
-    font-size:xx-large
-}
-
-#img-3-1{
-    height: 100vh;
-    width: 50vw;
-}
-
-#img-3-2{
-    height: 80vh;
-    width: 40vw;
-}
-
-#iframe1{
-    height: 40vh;
-    width: 60vw;
-}
-
-#h-page4{
-    font-family: 'Arimo', sans-serif;
-    text-align: center;
-    margin-top: 60px;
-}
-
-
 /************************CLASS*****************************/
 
 .navbar{
-    background: linear-gradient(grey,transparent);
+    background: transparent;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -190,78 +86,48 @@ header{
     text-decoration: none;
 }
 
-.page1{
-    background-image: url(images/mp-tourism-main-1.jpg);
-    /* background-color: aquamarine; */
-    top:0;
-    left:0;
-    height: 100vh;
-    width: 100vw;
-
-}
-
-.page2{
-    background-image: url(images/Deer.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.landing{
+    background-image:  url(images/page1-background.jpg);
+    background-size: cover;
+    width:100vw;
+    height: 97vh;
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
     position: relative;
-    height: 170vh;
-    width: 100vw;
+    
 }
 
-.div-iframe{
-    /* background-color: aqua; */
-    margin-top: 20vh;
-    display: flex;
-    padding-left: 10vw;
+.heading{
+    
+    width:auto;
+    height:30vh;
+    padding-top:12vw;
+    padding-left:15vw;
+    padding-right: 20vw;
+    overflow-x: hidden;
+    color: transparent;
 }
 
-
-.page3{
-    background-color:rgb(235, 230, 224);
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    display: flex;
+.landing h1{
+    background-color: rgb(24, 106, 60);
+    width: 58vw;
+    color: white;
+    font-weight: 800;
+    font-size: 130px;
+    mix-blend-mode: multiply;
+    border-radius: 8px;
+    padding-left: 50px;
+    transform: translateX(10%);
+    animation: scrolling 1.5s linear ;
 }
 
-.page3-1{
-    background-image: url(images/page3-image1-jal-mahotsav.jpg);
-    width: 50%;
-    height: 100vh;
+@keyframes scrolling {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
+    
 }
-
-.page3-2{
-    background-color:rgb(235, 230, 224);
-    padding-top: 10vh;
-    padding-left: 5vw;
-    width: 50vw;
-
-}
-.page4{
-    background-color: rgb(225, 237, 240);
-    width: 100%;
-    height: 105vh;
-    padding: 40px 40px;
-    position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-/* .myVideo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-} */
