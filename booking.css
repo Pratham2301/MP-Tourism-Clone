@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/**********************ALL*******************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+/***********************TAGS******************************/
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+}
+
+/************************ID*****************************/
+
+#nav-logo {
+    padding-left: 1vw;
+    height: 15vh;
+    width: 6vw;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+
+/************************CLASS*****************************/
+
+.navbar {
+    /* background: linear-gradient(grey, transparent); */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    opacity: 1.5;
+}
+
+.nav-links {
+    /* background-color: rgb(78, 0, 245); */
+    padding: 20px 10px 20px 0px;
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    border-bottom: 3px solid red;
+}
+
+.nav-li {
+
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar ul a {
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.navbar ul a:hover {
+    color: rgb(0, 42, 251);
+    text-decoration: none;
+}
+
+
+
+
+.page1 {
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-image {
+    position: absolute;
+    left: 15vw;
+    top: 20vh;
+}
+
+#image-1 {
+    height: 60vh;
+    width: 55vw;
+}
+
+.theory {
+    background-color: rgb(47, 3, 3);
+    opacity: 0.9;
+    color: white;
+    position: absolute;
+    left: 50vw;
+    top: 25vh;
+    height: 50vh;
+    width: 40vw;
+}
+
+.theory-1 {
+    padding: 20px 30px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theory-2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content{
+    background-color: rgb(239, 225, 205);
+    height: 20vh;
+    width: 80vw;
+    position: absolute;
+    top:20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking-input-box{
+    width: 20vw;
+    height:6vh;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+.booking-form{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(11, 90, 146);
+    position: absolute;
+    top:45vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    padding-top: 20px;
+    
+}
+
+.booking-form-input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    width: 30vw;
+    height: 4.5vh;
+    margin: 20px 10vw;
+    outline: 0;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#confirm-booking{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: large;
+    width: 10vw;
+    height: 5vh;
+    margin: 20px 20vw;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+#confirm-booking:hover{
+    background-color: rgb(0, 255, 51);
+    /* font-style: b; */
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Travel</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="nav-image">
+                <img src="images/mp_logo.png" alt="logo" id="nav-logo">
+            </div>
+
+            <div class="nav-links">
+                <ul id="nav-ul">
+                    <li class="nav-li"><a href="index.html" class="nav-a">Home</a></li>
+                    <li class="nav-li"><a href="main.html" class="nav-a">Explore</a></li>
+                    <li class="nav-li"><a href="" class="nav-a">Experience</a></li>
+                    <li class="nav-li"><a href="booking.html" class="nav-a">Plan Your Trips</a></li>
+                    <li class="nav-li"><a href="#page49"><i class="fa fa-search"></i>Search</a></li>
+                    <li class="nav-li"><a href=""><i class="fas fa-user-alt"></i>Login</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="page1">
+        <div class="hero-image">
+            <img src="images/booking-banner-1.jpg" alt="" id="image-1">
+        </div>
+        <div class="theory">
+            <div class="theory-1">
+                ACCOMMODATIONS IN MADHYA PRADESH
+            </div>
+            <hr width="400px">
+            <div class="theory-2">
+                Madhya Pradesh offers a wide variety of accommodation choices to suit your taste and budget. <br><br>
+                No matter where you travel in MP, you will find a warm and welcoming place to stay somewhere nearby.
+                <br><br> Whether you
+                want to travel alone or with friends, family and kids, whether you want to stay close to MP's bustling
+                cities or escape into the bracing wilderness - MP has a place right for you.
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page2">
+        <!-- <h1>Plan Your Trips</h1> -->
+        <div class="content">
+
+            <div class="destination">
+                <div class="places">
+                    <select name="cars" id="booking-inputbox-1" class="booking-input-box">
+                        <option value="1">Select Travel Destination</option>
+                        <option value="2">Bhopal</option>
+                        <option value="3">Indore</option>
+                        <option value="4">Gwalior</option>
+                        <option value="5">Jabalpur</option>
+                        <option value="6">Kanha</option>
+                        <option value="7">Pachmari</option>
+                    </select>
+                    <select name="cars" id="booking-inputbox-2" class="booking-input-box">
+                        <option value="1">Select Travel Month</option>
+                        <option value="2">January</option>
+                        <option value="3">February</option>
+                        <option value="4">March</option>
+                        <option value="5">April</option>
+                        <option value="6">May</option>
+                        <option value="7">June</option>
+                        <option value="8">July</option>
+                        <option value="9">August</option>
+                        <option value="10">September</option>
+                        <option value="11">October</option>
+                        <option value="12">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="Number of Days"
+                        class="booking-input-box">
+                </div>
+            </div>
+        </div>
+
+        <form action="" class="booking-form">
+            <!-- <label for="name" class="booking-form-label">Name</label> -->
+            <input type="text" class="booking-form-input" placeholder="Full Name">
+            <br>
+            <!-- <label for="email" class="booking-form-label">Email</label> -->
+            <input type="email" class="booking-form-input" placeholder="Email">
+            <br>
+            <!-- <label for="phone" class="booking-form-label">Phone</label> -->
+            <input type="text" class="booking-form-input" placeholder="Phone Number">
+            <br>
+            <!-- <label for="date" class="booking-form-label">Date</label> -->
+            <input type="date" class="booking-form-input" placeholder="Travel Start Date">
+            <br>
+            <button type="submit" id="confirm-booking">Confirm Booking</button>
+        </form>
+
+        
+    </div>
+
+    <div class="page-3">
+        <div class="hotels">
+            <div class="hotel-1"></div>
+            <div class="hotel-2"></div>
+            <div class="hotel-3"></div>
+            <div class="hotel-4"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

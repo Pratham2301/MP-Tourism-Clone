@@ -179,19 +179,24 @@ header{
 }
 
 .navbar ul a{
+    /* font-family: 'Poppins', sans-serif; */
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 20px;
+    font: 800;
     font-weight: 500;
+    transition: 0.4s;
     
 }
 
 .navbar ul a:hover{
-    color: rgb(0, 42, 251);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .page1{
     background-image: url(images/mp-tourism-main-1.jpg);
+    background-size: cover;
     /* background-color: aquamarine; */
     top:0;
     left:0;
