@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+/**********************ALL*******************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    /* font-family: 'Joan', serif;
+    color: rgb(72, 8, 8); */
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
+
+
+/***********************TAGS******************************/
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+}
+
+/************************ID*****************************/
+
+#nav-logo {
+    padding-left: 1vw;
+    height: 15vh;
+    width: 6vw;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+
+/************************CLASS*****************************/
+
+.navbar {
+    /* background: linear-gradient(grey, transparent); */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    opacity: 1.5;
+}
+
+.nav-links {
+    /* background-color: rgb(78, 0, 245); */
+    padding: 20px 10px 20px 0px;
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    border-bottom: 3px solid red;
+}
+
+.nav-li {
+
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar ul a {
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.navbar ul a:hover {
+    color: rgb(0, 42, 251);
+    text-decoration: none;
+}
+
+.banner{
+    margin: 10vh 0 0 0;
+    background-image: url(images/covidbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+}
+
+.left{
+    position: relative;
+}
+
+.left img{
+    position: absolute;
+    height: 70vh;
+    width: 40vw;
+    left:50vw;
+    top:20vh;
+}
+
+.right{
+    position: relative;
+}
+
+.right img{
+    position: absolute;
+    height: 60vh;
+    width: 30vw;
+    left:10vw;
+    top:20vh;
+}

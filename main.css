@@ -1,27 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 /**********************ALL*******************************/
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
+h1 {
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
 
 /***********************TAGS******************************/
 
-header{
+header {
     height: 10vh;
     width: 100vw;
     background-color: transparent;
     position: absolute;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     z-index: 1;
     position: fixed;
-    top:0;
+    top: 0;
 
 }
 
@@ -34,74 +44,82 @@ header{
 
 /************************ID*****************************/
 
-#nav-logo{
+#nav-logo {
     padding-left: 1vw;
     height: 15vh;
     width: 8vw;
 }
 
-#nav-ul{
+#nav-ul {
     display: flex;
 }
 
 
-#box1{
+#box1 {
     background-color: brown;
     position: absolute;
-    left:52vw;
+    left: 52vw;
     top: -6vh;
     width: 30vw;
     height: 42vh;
 }
-#box2{
+
+#box2 {
     position: absolute;
-    left:20vw;
+    left: 20vw;
     top: 10vh;
 }
-#box3{
+
+#box3 {
     position: absolute;
-    left:52vw;
+    left: 52vw;
     top: 40vh;
 }
-#box4{
+
+#box4 {
     position: absolute;
-    left:20vw;
+    left: 20vw;
     top: 52vh;
 }
-#box5{
+
+#box5 {
     position: absolute;
-    left:52vw;
-    top: 84vh;    
+    left: 52vw;
+    top: 84vh;
 }
 
-#page2-image-1{
-    height:43vh;
-    width: 30vw; 
-}
-#page2-image-2{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-3{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-4{
-    height:40vh;
-    width: 30vw; 
-}
-#page2-image-5{
-    height:40vh;
-    width: 30vw; 
+#page2-image-1 {
+    height: 43vh;
+    width: 30vw;
 }
 
-#hotel-image{
+#page2-image-2 {
+    height: 40vh;
+    width: 30vw;
+}
+
+#page2-image-3 {
+    height: 40vh;
+    width: 30vw;
+}
+
+#page2-image-4 {
+    height: 40vh;
+    width: 30vw;
+}
+
+#page2-image-5 {
+    height: 40vh;
+    width: 30vw;
+}
+
+#hotel-image {
     height: 50px;
     width: 50px;
     background-color: brown;
 }
 
-#range-text{
+#range-text {
     color: white;
     margin-left: 20px;
     font-family: 'Arimo', sans-serif;
@@ -109,103 +127,104 @@ header{
     font-size: large;
 }
 
-#range1{
+#range1 {
     margin-left: 20px;
     margin-top: 10px;
     width: 27vw;
     height: 3px;
-    
+
 }
 
 
-#para-1{
+#para-1 {
     color: rgb(201, 226, 136);
     margin-left: 20px;
     font-family: 'Arimo', sans-serif;
     font-weight: 300;
-    font-size:xx-large
+    font-size: xx-large
 }
 
-#img-3-1{
+#img-3-1 {
     height: 100vh;
     width: 50vw;
 }
 
-#img-3-2{
+#img-3-2 {
     height: 80vh;
     width: 40vw;
 }
 
-#iframe1{
+#iframe1 {
     height: 40vh;
     width: 60vw;
 }
 
-#h-page4{
-    font-family: 'Arimo', sans-serif;
+#h-page4 {
     text-align: center;
     margin-top: 60px;
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
 }
 
 
 /************************CLASS*****************************/
 
-.navbar{
-    background: linear-gradient(grey,transparent);
+.navbar {
+    background: linear-gradient(grey, transparent);
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     opacity: 1.5;
 }
 
-.nav-links{
+.nav-links {
     /* background-color: rgb(78, 0, 245); */
     padding: 20px 10px 20px 0px;
-    width: 47vw;
+    width: 49vw;
     display: flex;
     align-items: center;
     justify-content: left;
     font-size: 18px;
-    border-bottom: 3px solid red ;
+    border-bottom: 3px solid red;
 }
 
-.nav-li{
-    
+.nav-li {
+
     padding: 20px 20px 20px 20px;
     list-style-type: none;
     justify-content: space-between;
 }
 
-.navbar ul a{
+.navbar ul a {
     /* font-family: 'Poppins', sans-serif; */
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
-    font: 800;
-    font-weight: 500;
+    font-size: 19px;
     transition: 0.4s;
-    
+
 }
 
-.navbar ul a:hover{
+.navbar ul a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.page1{
+.page1 {
     background-image: url(images/mp-tourism-main-1.jpg);
     background-size: cover;
     /* background-color: aquamarine; */
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
 
 }
 
-.page2{
+.page2 {
     background-image: url(images/Deer.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -214,59 +233,107 @@ header{
     width: 100vw;
 }
 
-.div-iframe{
-    /* background-color: aqua; */
-    margin-top: 20vh;
-    display: flex;
-    padding-left: 10vw;
-}
 
-
-.page3{
-    background-color:rgb(235, 230, 224);
+.page3 {
+    background-color: rgb(235, 230, 224);
     width: 100%;
     height: 100vh;
     padding: 0;
     display: flex;
 }
 
-.page3-1{
+.page3-1 {
     background-image: url(images/page3-image1-jal-mahotsav.jpg);
     width: 50%;
     height: 100vh;
 }
 
-.page3-2{
-    background-color:rgb(235, 230, 224);
+.page3-2 {
+    background-color: rgb(235, 230, 224);
     padding-top: 10vh;
     padding-left: 5vw;
     width: 50vw;
 
 }
-.page4{
-    background-color: rgb(225, 237, 240);
+
+.page4 {
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 105vh;
-    padding: 40px 40px;
-    position: relative;
+    height: 115vh;
+    padding: 100px 40px 20px 40px;
+
+}
+
+.page4-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-iframe {
+    /* background-color: aqua; */
+    padding-top: 20vh;
+    padding-left: 10vw;
+}
+
+.page-4-right {
+    padding-top: 20vh;
+    padding-left: 2vw;
+    height: 50vh;
+    width: 50vw;
+}
+
+.page4-r-all {
+    display: flex;
+}
+
+.page4-r-all:hover {
+    background-color: rgb(228, 242, 250);
+}
+
+.page4-r-all p {
+    color: #44040b;
+    font-family: 'eb_garamondsemibold';
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.page4-r-img {
+    height: 14vh;
+    width: 8vw;
+    padding-bottom: 10px;
+
 }
 
 
+.page5 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 135vh;
+    padding: 100px 40px 20px 40px;
 
+}
 
+.page5 h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
 
+.page5-divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 80vw;
+}
 
-
-
-
-
-/* .myVideo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-} */
+.page5-img img {
+    height: 40vh;
+    width: 40vw;
+    margin: 50px;
+}

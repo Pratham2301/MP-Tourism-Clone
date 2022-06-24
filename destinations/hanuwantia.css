@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
 /**********************ALL*******************************/
 
 * {
@@ -145,75 +147,101 @@ header {
 
 .page2 {
     /* background-color: antiquewhite; */
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     position: relative;
 }
 
-.content{
-    background-color: rgb(239, 225, 205);
-    height: 20vh;
-    width: 80vw;
+.page2-details{
     position: absolute;
-    top:20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.booking-input-box{
-    width: 20vw;
-    height:6vh;
-    margin-left: 30px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: large;
-}
-
-.booking-form{
+    /* background-color: rgb(199, 113, 0); */
+    height: 100vh;
     width: 50vw;
-    height: 55vh;
-    background-color: rgb(11, 90, 146);
+}
+
+.page2-details h1{
     position: absolute;
-    top:45vh;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    padding-top: 20px;
-    
+    top:25vh;
+    left: 10vw;
 }
 
-.booking-form-input{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    width: 30vw;
-    height: 4.5vh;
-    margin: 20px 10vw;
-    outline: 0;
-    text-align: center;
-    border-radius: 10px;
-
-}
-
-#confirm-booking{
+.page2-details p{
+    position: absolute;
+    top:40vh;
+    left: 10vw;
     font-family: 'Source Serif Pro', serif;
     background-color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: large;
-    width: 10vw;
-    height: 5vh;
-    margin: 20px 20vw;
-    border-radius: 10px;
-    border: none;
-    transition: 0.5s;
 }
 
-#confirm-booking:hover{
-    background-color: rgb(0, 255, 51);
-    /* font-style: b; */
+.page2-video{
+    position: absolute;
+    top:0vh;
+    right:0;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myvideo{
+    height: 100vh;
+    width: 40vw;
+}
+
+.page3 {
+    /* background-color: antiquewhite; */
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+}
+
+.page3 h1{
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#grid-image-1{
+    position: absolute;
+    top:30vh;
+    left:10vw;
+    height: 85vh;
+    width: 41vw;
+}
+
+#grid-image-2{
+    position: absolute;
+    top:30vh;
+    left:52vw;
+    height: 40vh;
+    width: 20vw;
+}
+
+#grid-image-3{
+    position: absolute;
+    top:30vh;
+    left:73vw;
+    height: 40vh;
+    width: 20vw;
+}
+
+#grid-image-4{
+    position: absolute;
+    top:72vh;
+    left:52vw;
+    height: 43vh;
+    width: 20vw;
+}
+
+#grid-image-5{
+    position: absolute;
+    top:72vh;
+    left:73vw;
+    height: 43vh;
+    width: 20vw;
 }

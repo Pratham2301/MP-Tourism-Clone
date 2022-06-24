@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/**********************ALL*******************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    /* font-family: 'Joan', serif;
+    color: rgb(72, 8, 8); */
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
+
+
+/***********************TAGS******************************/
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+}
+
+/************************ID*****************************/
+
+#nav-logo {
+    padding-left: 1vw;
+    height: 15vh;
+    width: 6vw;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+
+/************************CLASS*****************************/
+
+.navbar {
+    /* background: linear-gradient(grey, transparent); */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    opacity: 1.5;
+}
+
+.nav-links {
+    /* background-color: rgb(78, 0, 245); */
+    padding: 20px 10px 20px 0px;
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    border-bottom: 3px solid red;
+}
+
+.nav-li {
+
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar ul a {
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.navbar ul a:hover {
+    color: rgb(0, 42, 251);
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url(images/experience-bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-attachment: fixed;
+    /* position: sticky;
+    top:0;
+    height: 100vh;
+    width: 100vw; */
+}
+
+.page1{
+    background-image: url(images/adventure-page-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.div21 {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:10vw;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+
+.div22{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:50vw;
+}
+
+.div31{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:10vw;
+}
+
+.div32{
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:50vw;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+
+
+.div41 {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:10vw;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+
+.div42{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:50vw;
+}
+
+.div51{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:10vw;
+}
+
+.div52{
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top:10vh;
+    left:50vw;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+
+
+.block-img{
+    height: 50vh;
+    width: 70vh;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.block-img:hover{
+    cursor: pointer;
+    height: 55vh;
+    width: 75vh;
+}
+
+.page-blocks{
+    /* background-color: #ffffff; */
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    position: relative;
+    transition: width 5s, height 5s;
+}
+
+.page-blocks:hover{
+    height: 70vh;
+}
+
+
+.text{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 200;
+    font-size: large;
+    padding-top: 60px;
+}
+
+
+.text h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: larger;
+    font-family: 'eb_garamondsemibold';
+}
+
+.text button{
+    background-color: transparent;
+    height: 5vh;
+    width: 7vw;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+
+.text button:hover{
+    background-color: white;
+    height: 5vh;
+    width: 7vw;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 255, 255);
+}
+
+.page6{
+    height: 50vh;
+    width: 100vw;
+}
