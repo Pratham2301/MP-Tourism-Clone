@@ -224,6 +224,19 @@ header {
 
 }
 
+.avatar{
+    height: 11vh;
+    width: 5vw;
+    margin-left: 93vw;
+    margin-top: 88vh;
+    border-radius: 50%;
+    /* background-color: rgb(98, 255, 0); */
+    background-image: url(images/avatar.png);
+    background-size: cover;
+    z-index: 2;
+    position: fixed;
+}
+
 .page2 {
     background-image: url(images/Deer.jpg);
     background-size: 100% 100%;
@@ -246,6 +259,45 @@ header {
     background-image: url(images/page3-image1-jal-mahotsav.jpg);
     width: 50%;
     height: 100vh;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+#p-3-1 {
+    font-family: 'eb_garamondsemibold';
+    font-size: xx-large;
+    color: white;
+}
+
+#p-3-2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+}
+
+#p-3-3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    color: white;
+}
+
+.page3-1 button{
+    margin-top: 40px;
+    height: 8vh;
+    width: 12vw;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+    font-size: large;
+}
+
+.page3-1 button:hover{
+    background-color: white;
+    color: black;
+    height: 8vh;
+    width: 13vw;
 }
 
 .page3-2 {
@@ -253,7 +305,6 @@ header {
     padding-top: 10vh;
     padding-left: 5vw;
     width: 50vw;
-
 }
 
 .page4 {
@@ -309,7 +360,7 @@ header {
 .page5 {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 135vh;
+    height: auto;
     padding: 100px 40px 20px 40px;
 
 }
@@ -336,4 +387,126 @@ header {
     height: 40vh;
     width: 40vw;
     margin: 50px;
+}
+
+.page-5-para1{
+    color: #44040b;
+    text-transform: uppercase;
+    font-family: 'eb_garamondsemibold';
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.page-5-para2{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+
+.page6{
+    margin-top: 10vh;
+    height: 150vh;
+    width: 100vw;
+    position: relative;
+}
+
+.page6 h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
+
+#social-1{
+    position: absolute;
+    top:20vh;
+    left: 12vw;
+    height: 35vh;
+    width: 18vw;
+}
+
+#social-2{
+    position: absolute;
+    top:20vh;
+    left: 31vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+#social-3{
+    position: absolute;
+    top:20vh;
+    left: 52vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+#social-4{
+    position: absolute;
+    top:20vh;
+    left: 73vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+#social-5{
+    position: absolute;
+    top:56vh;
+    left: 12vw;
+    height: 35vh;
+    width: 18vw;
+}
+
+#social-6{
+    position: absolute;
+    top:56vh;
+    left: 31vw;
+    height: 35vh;
+    width: 41vw;
+}
+
+#social-7{
+    position: absolute;
+    top:56vh;
+    left: 73vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+
+#social-8{
+    position: absolute;
+    top:92vh;
+    left: 12vw;
+    height: 35vh;
+    width: 18vw;
+}
+
+#social-9{
+    position: absolute;
+    top:92vh;
+    left: 31vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+#social-10{
+    position: absolute;
+    top:92vh;
+    left: 52vw;
+    height: 35vh;
+    width: 20vw;
+}
+
+#social-11{
+    position: absolute;
+    top:92vh;
+    left: 73vw;
+    height: 35vh;
+    width: 20vw;
 }
