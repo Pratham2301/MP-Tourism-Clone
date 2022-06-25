@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+/**********************ALL*******************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    /* font-family: 'Joan', serif;
+    color: rgb(72, 8, 8); */
+    color: #44040b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'eb_garamondsemibold';
+}
+
+
+/***********************TAGS******************************/
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+}
+
+/************************ID*****************************/
+
+#nav-logo {
+    padding-left: 1vw;
+    height: 15vh;
+    width: 6vw;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+
+/************************CLASS*****************************/
+
+.navbar {
+    /* background: linear-gradient(grey, transparent); */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    opacity: 1.5;
+}
+
+.nav-links {
+    /* background-color: rgb(78, 0, 245); */
+    padding: 20px 10px 20px 0px;
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    border-bottom: 3px solid red;
+}
+
+.nav-li {
+
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar ul a {
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.navbar ul a:hover {
+    color: rgb(0, 42, 251);
+    text-decoration: none;
+}
+
+
+
+
+.page1 {
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-image {
+    position: absolute;
+    left: 15vw;
+    top: 20vh;
+}
+
+#image-1 {
+    height: 60vh;
+    width: 55vw;
+}
+
+.theory {
+    background-color: rgb(47, 3, 3);
+    opacity: 0.9;
+    color: white;
+    position: absolute;
+    left: 50vw;
+    top: 25vh;
+    height: 50vh;
+    width: 40vw;
+}
+
+.theory-1 {
+    padding: 20px 30px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theory-2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.page2-details{
+    position: absolute;
+    /* background-color: rgb(199, 113, 0); */
+    height: 100vh;
+    width: 50vw;
+}
+
+.page2-details h1{
+    position: absolute;
+    top:25vh;
+    left: 10vw;
+}
+
+.page2-details p{
+    position: absolute;
+    top:40vh;
+    left: 10vw;
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: large;
+}
+
+.page2-video{
+    position: absolute;
+    top:0vh;
+    right:0;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myvideo{
+    height: 100vh;
+    width: 40vw;
+}
+
+.page3 {
+    /* background-color: antiquewhite; */
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+}
+
+.page3 h1{
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#grid-image-1{
+    position: absolute;
+    top:30vh;
+    left:10vw;
+    height: 85vh;
+    width: 41vw;
+}
+
+#grid-image-2{
+    position: absolute;
+    top:30vh;
+    left:52vw;
+    height: 40vh;
+    width: 20vw;
+}
+
+#grid-image-3{
+    position: absolute;
+    top:30vh;
+    left:73vw;
+    height: 40vh;
+    width: 20vw;
+}
+
+#grid-image-4{
+    position: absolute;
+    top:72vh;
+    left:52vw;
+    height: 43vh;
+    width: 20vw;
+}
+
+#grid-image-5{
+    position: absolute;
+    top:72vh;
+    left:73vw;
+    height: 43vh;
+    width: 20vw;
+}
